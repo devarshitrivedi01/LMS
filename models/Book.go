@@ -1,10 +1,10 @@
 package models
 
 type Book struct{
-	ID int
+	BookID int
 	Name string
 	Author string
-	// Issued bool
-	// ISBN string
-	// AssocUserId int
+	Issued bool
+	ISBN string
+	AssocUserId int
 }
